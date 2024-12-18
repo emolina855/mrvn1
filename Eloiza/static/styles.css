@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #E574BC, #96D7FF); /* Pink Lavender to Baby Blue */
+    color: #7FDEFF; /* Aquamarine Blue */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header and Titles */
+h2, h3 {
+    color: #F9B4ED; /* Orchid Pink */
+    margin: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 8px #EA84C9; /* Blush Pink Shadow */
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+/* Forms */
+form {
+    background: #EABAF6; /* Soft Lilac */
+    border: 2px solid #DABFFF; /* Pastel Purple */
+    border-radius: 15px;
+    padding: 25px;
+    width: 350px;
+    margin: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 12px;
+    border: 1px solid #C4C7FF; /* Lavender Blue */
+    border-radius: 8px;
+    background: #ffffff;
+    color: #EA84C9; /* Blush Pink */
+}
+
+input:focus {
+    border-color: #ADCFDF; /* Sky Blue */
+    outline: none;
+    box-shadow: 0 0 6px #96D7FF;
+}
+
+button {
+    background: #EF94D5; /* Mauve */
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: #E574BC; /* Pink Lavender */
+    transform: scale(1.05);
+}
+
+/* Logout Button */
+.logout-btn {
+    background: #F9B4ED; /* Orchid Pink */
+    color: #FFFFFF;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.3s ease;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+
+.logout-btn:hover {
+    background: #E574BC; /* Pink Lavender */
+    transform: scale(1.1);
+}
+
+/* Links */
+a {
+    color: #EF94D5; /* Mauve */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #E574BC; /* Pink Lavender */
+    text-decoration: underline;
+}
+
+/* Table Styles */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    background: #FFFFFF; /* White */
+    color: #EA84C9; /* Blush Pink */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #C4C7FF; /* Lavender Blue */
+}
+
+table th {
+    background: #DABFFF; /* Pastel Purple */
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background: #ADCFDF; /* Sky Blue */
+}
+
+table tr:hover {
+    background: #96D7FF; /* Baby Blue */
+    color: #FFFFFF;
+    transition: 0.2s ease;
+}
+
+/* Buttons in Table */
+.action-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    background: #F9B4ED; /* Orchid Pink */
+    color: #FFFFFF;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s ease;
+}
+
+.action-btn:hover {
+    background: #E574BC; /* Pink Lavender */
+    color: #FFFFFF;
+    transform: scale(1.1);
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+    background: #3C1642; /* Deep Purple */
+    color: #7FDEFF; /* Aquamarine Blue */
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.9em;
+    box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.3);
+}
